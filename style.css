@@ -1,0 +1,564 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    justify-content: center;
+    
+
+}
+header {
+    width: 100%;
+    top: 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+.BestShop{
+    margin-left: 142px;
+    top: 16px;
+    text-align: left;
+    font: normal normal 300 32px/37px Raleway;
+    letter-spacing: 0px;
+    color: #08A6E4;
+    opacity: 1;
+}
+.jeden{
+    margin-top: 40px;
+}
+.jeden a{
+    margin: 30px;
+    text-align: center;
+    font: normal normal bold 11px/15px Open Sans;
+    letter-spacing: 3.28px;
+    color: #A5A5A5;
+    opacity: 1;
+    margin-right: 100px;
+    text-decoration: none;
+}
+.obiekt{
+    
+    text-align: center !important;
+    font: normal normal bold 11px/15px Open Sans !important;
+    letter-spacing: 3.28px !important;
+    color: #000000 !important;
+    opacity: 1 !important;
+}
+.laptop{
+    text-align: center;
+}
+.laptop h1{
+    text-align: center;
+    font: normal normal normal 49px/57px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.laptop p{
+    text-align: center;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.laptop button{
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    opacity: 1;
+    left: 593px;
+    width: 440px;
+    height: 67px;
+    border: none;
+}
+.laptop img{
+    background: transparent url('img/Background.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.obrazkih h2{
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.obraski{
+    margin-top: 100px;
+}
+.obrazy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.kolo {
+    width: 50px; /* Ustawia szerokość kółka */
+    height: 50px; /* Ustawia wysokość kółka */
+    
+    border-radius: 50%; /* Zaokrągla rogi, tworząc kształt kółka */
+    position: absolute;
+    margin-left: 220px;
+    margin: right 220px;
+    margin-top: -55px;
+    z-index: -3;
+    background: #FB3B64 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.kolo1 {
+    width: 50px; /* Ustawia szerokość kółka */
+    height: 50px; /* Ustawia wysokość kółka */
+    background-color: #3498db; /* Ustawia kolor tła kółka */
+    border-radius: 50%; /* Zaokrągla rogi, tworząc kształt kółka */
+    position: absolute;
+    margin-left: 220px;
+    margin-right:220px;
+    margin-top: -50px;
+    z-index: -3;
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+.kolo2 {
+    width: 50px; /* Ustawia szerokość kółka */
+    height: 50px; /* Ustawia wysokość kółka */
+    border-radius: 50%; /* Zaokrągla rogi, tworząc kształt kółka */
+    position: absolute;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-top: -50px;
+    z-index: -3;
+    background: #55DFB4 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.obrazy img{
+    margin-left: 200px;
+    margin-right:200px;
+}
+.liczby{
+    margin-left: 200px ;
+    margin-right:200px ;
+    text-align: center;
+    font: normal normal 800 20px/24px Raleway;
+    letter-spacing: 5.96px;
+    color: #000000;
+    opacity: 1;
+}
+.pdoliczby{
+    margin-left: 200px ;
+    margin-right:200px ;
+    text-align: center;
+    font: normal normal normal 17px/20px Raleway;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+.obraski{
+    text-align: center;
+}
+.pojemnik{
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 94%;
+    height: 1395px;
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie poziome */
+    align-items: center; /* Wyśrodkowanie pionowe */
+    flex-direction: column;
+}
+.info{
+    width: 70%;
+    height: 370px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 40px;
+    display: flex;
+}
+.left{
+width: 50%;
+display: flex;
+align-items: center;
+}
+.linia1{
+    width: 80%;
+    border: 2px solid #FB3B64;
+    opacity: 1;
+    margin-left: 40px;
+}
+
+.info h2{
+    text-align: left;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 40px;
+    
+}
+.info p{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    left: 286px;
+    width: 416px;
+    margin-left: 40px;
+    
+}
+
+.right{
+width: 50%;
+float: right;
+margin-left: 100px;
+margin-top: 100px;
+}
+.right img{
+    z-index: 3;
+    position: absolute;
+    
+}
+.prostokat {
+    width: 150px; /* Ustawia szerokość prostokąta */
+    height: 150px; /* Ustawia wysokość prostokąta */
+    border-radius: 200px; /* Zaokrągla rogi */
+    background: #FB3B64 0% 0% no-repeat padding-box;
+    border-radius: 41px;
+    
+    transform: rotate(40deg);
+    position: absolute;
+    z-index: 1;
+    margin-left: 240px;
+    margin-top: -25px;
+    
+    
+}
+.left img{
+    position: absolute;
+    z-index: 3;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.kolo3{
+    width: 320px; /* Ustawia szerokość kółka */
+    height: 320px; /* Ustawia wysokość kółka */
+    
+    border-radius: 50%; /* Zaokrągla rogi, tworząc kształt kółka */
+    position: absolute;
+    margin-left: 220px;
+    margin: right 220px;
+    margin-top: -55px;
+    z-index: 1;
+    background: #07ACE6 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.right h2{
+    text-align: left;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.right p{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.linia2{
+    border: 2px solid #08A6E4;
+    width: 70%;
+    margin-left: 40px;
+}
+.info1{
+    width: 70%;
+    height: 370px;
+    
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 40px;
+    display: flex;
+}
+.left1{
+    width: 50%;
+    height: 370px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.right2{
+    width: 40%;
+    height: 370px;
+    background: #55DFB4 0% 0% no-repeat padding-box;
+    border: 1px solid #E8E9ED;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.left1 div{
+    margin-left: 30px;
+}
+.left1 h2{
+    text-align: left;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.left1 p{
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.linia3{
+    border: 2px solid #55DFB4;
+    width: 45%;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.right2 img{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.Pricing{
+    text-align: center;
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-left: -5%;
+    margin-top: 100px;
+}
+.piony{
+    display: flex;
+    width: 94%;
+    height: 1395px;
+    height: 100px;
+    margin: 10px;
+    margin-top: 300px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pion1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FB3B64;
+    border-radius: 18px;
+    height: 461px;
+    width: 372px;
+    margin: 30px;
+    
+    text-align: center;
+
+}
+.pion1 h1{
+    color: #FB3B64;
+}
+.przycisk1{
+    padding: 20px 70px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background: #EB476E 0% 0% no-repeat padding-box;
+    color: #ffffff; 
+    border-radius: 23px;
+    border: none;
+    margin-top: 90px;
+}
+
+.pion2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 27px #07ACE629;
+    border: 1px solid #07ACE6;
+    border-radius: 18px;
+    height: 500px;
+    width: 405px;
+    margin: 40px;
+    text-align: center;
+}
+.pion2 h1{
+    color:#07ACE6 ;
+}
+.przycisk2{
+    padding: 20px 70px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background: #07ACE6 0% 0% no-repeat padding-box;
+    color: #ffffff; 
+    border-radius: 23px;
+    border: none;
+    margin-top: 105px;
+}
+.pion3{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #55DFB4;
+    border-radius: 18px;
+    opacity: 1;
+    height: 461px;
+    width: 372px;
+    margin: 30px;
+    
+    text-align: center;
+}
+.pion3 h1{
+    color: #55DFB4;
+}
+.przycisk3{
+    padding: 20px 70px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background: #55DFB4 0% 0% no-repeat padding-box;
+    color: #ffffff; 
+    border-radius: 23px;
+    border: none;
+    margin-top: 65px;
+}
+.male{
+    font: normal normal bold 12px/1px Raleway;
+    letter-spacing: 0px;
+    color: #13253B;
+}
+
+.ostatni{
+    display: flex;
+    width: 97%;
+    padding-top: 300px;
+    padding-left:100px ;
+    padding-right: 300px;
+    
+    
+    
+}
+.ostatni-lewy{
+    flex: 1;
+    
+}
+.ostatni-lewy h1{
+    margin-left: 30%;
+    text-align: left;
+    font: normal normal normal 49px/57px Raleway;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.ostatni-lewy h4{
+    margin-left: 30%;
+    text-align: left;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.ostatni-lewy h5{
+    margin-left: 30%;
+    text-align: left;
+    font: normal normal 600 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #A5A5A5;
+    opacity: 1;
+}
+.ostatni-lewy img{
+    width: 4%;
+    height: 4%;
+}
+.ostatni-prawy{
+    flex: 1;
+}
+.kwadracik2{
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    margin-left: -30px;
+    border: 2px solid #95989A;
+    position: absolute;
+    margin-top: 10px;
+    background-image: url('obrazkik/checkmark.png')
+}
+.ostatni-obrazek{
+    position: absolute;
+    margin-top: 34px;
+    margin-left: -202px;
+}
+.p-ostatni{
+left: 855px;
+width: 405px;
+text-align: left;
+font: normal normal normal 12px/17px Open Sans;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+.button-ost{
+    padding: 13px 80px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background: #07ACE6 0% 0% no-repeat padding-box;
+    color: #ffffff; 
+    border-radius: 23px;
+    border: none;
+    margin-top: 0px;
+    margin-left: 200px;
+}
+footer{
+    display: flex;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    box-shadow: 0px -5px 40px #00000029;
+    width: 113% !important;
+    margin-bottom: 0px;
+   
+}
+.footer-lewy{
+    flex: 1;
+    padding-left: 100px;
+    
+   
+    
+}
+.wyjątkowy{
+    padding-left: 142px;
+    
+    
+}
+
+.footer-prawy{
+    flex: 1;
+    text-align: right;
+    padding-right: 400px;
+    margin-top: 20px;
+    
+}
+.footer-prawy img{
+ margin: 10px;
+}
+h6{
+    text-align: left;
+    font: normal normal bold 11px/15px Open Sans;
+    letter-spacing: 3.28px;
+    color: #08A6E4;
+    opacity: 1;
+}
+input[type="text"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+}
